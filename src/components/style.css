@@ -1,0 +1,35 @@
+.form {
+    /* width: 100%; */
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+label {
+    margin: 2%;
+}
+
+.form-input {
+    padding: 5%;
+    margin: 2%;
+}
+
+.form-button {
+    width: 50%;
+    height: 50px;
+    margin: 2%;
+    background-color: rgba(1, 62, 102, 0.952);
+    color: #fff;
+    border: none;
+    border-radius: 4%;
+}
+
+.success {
+    background-color: green;
+}
+.danger {
+    background-color: red;
+}
+
+.button-container {
+    display: flex;
+}
