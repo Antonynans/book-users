@@ -5,11 +5,6 @@ import EditUserForm from './EditUserForm';
 
 
 export default function BookData() {
-    const [book, setBook] = useState({
-        title: '',
-        available: false
-    })
-
     const [users, setUsers] = useState(
         [
             {id: 1, name: 'Tania', username: 'Dj' },
@@ -39,11 +34,7 @@ export default function BookData() {
         setUsers(users.filter((user) => user.id !== id))
     }
 
-    const updateBook = (book) => {
-        setBook({title: book.title,
-        available: book.available })
-    }
-
+   
     return (
         <div className="container">
             <h1 style={{color: 'rgb(255, 0, 191)'}}>CRUD App with Hooks</h1>
