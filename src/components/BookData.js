@@ -46,12 +46,12 @@ export default function BookData() {
 
     return (
         <div className="container">
-            <h1>CRUD App with Hooks</h1>
+            <h1 style={{color: 'rgb(255, 0, 191)'}}>CRUD App with Hooks</h1>
             <div className='flex-row'>
                 <div className='flex-large'>
                     {editing ? (
                         <div>
-                            <h2>Edit user</h2>
+                            <h2 style={{color: 'green'}}>Edit User</h2>
                             <EditUserForm
                                 setEditing={setEditing}
                                 currentUser={currentUser}
