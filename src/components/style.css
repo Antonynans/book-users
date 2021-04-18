@@ -1,3 +1,9 @@
+    @media screen and (min-width: 768px) {
+        .container {
+            width: 50%;
+            margin: auto;
+        }
+    }
 .form {
     display: flex;
     flex-flow: column nowrap;
@@ -8,7 +14,7 @@ label {
 }
 
 .form-input {
-    padding: 5%;
+    padding: 3%;
     margin: 2%;
 }
 
