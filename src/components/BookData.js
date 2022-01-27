@@ -37,7 +37,7 @@ export default function BookData() {
    
     return (
         <div className="container">
-            <h1 style={{color: 'rgb(255, 0, 191)'}}>CRUD App with Hooks</h1>
+            <h1 style={{color: 'rgb(69, 141, 255)'}}>Book app with react hooks</h1>
             <div className='flex-row'>
                 <div className='flex-large'>
                     {editing ? (
